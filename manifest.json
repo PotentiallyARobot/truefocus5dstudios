@@ -6,100 +6,100 @@
       "url": "https://ace02789.wixsite.com/truefocus5dstudios",
       "file": "pages/home.html",
       "ok": true,
-      "bytes": 4598,
+      "bytes": 1313956,
       "originalCaptureBytes": 1314102,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/services-7",
       "file": "pages/services-7.html",
       "ok": true,
-      "bytes": 4228,
+      "bytes": 918215,
       "originalCaptureBytes": 918361,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/aliens",
       "file": "pages/aliens.html",
       "ok": true,
-      "bytes": 4287,
+      "bytes": 1101860,
       "originalCaptureBytes": 1102006,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/matrix",
       "file": "pages/matrix.html",
       "ok": true,
-      "bytes": 4057,
+      "bytes": 1100590,
       "originalCaptureBytes": 1100736,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/gladiator",
       "file": "pages/gladiator.html",
       "ok": true,
-      "bytes": 4077,
+      "bytes": 1096342,
       "originalCaptureBytes": 1096488,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/the-fifth-element",
       "file": "pages/the-fifth-element.html",
       "ok": true,
-      "bytes": 4205,
+      "bytes": 1096202,
       "originalCaptureBytes": 1096348,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/starship-troopers",
       "file": "pages/starship-troopers.html",
       "ok": true,
-      "bytes": 3985,
+      "bytes": 1097915,
       "originalCaptureBytes": 1098061,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/about-us",
       "file": "pages/about-us.html",
       "ok": true,
-      "bytes": 7669,
+      "bytes": 907045,
       "originalCaptureBytes": 907191,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/contact",
       "file": "pages/contact.html",
       "ok": true,
-      "bytes": 2314,
+      "bytes": 899515,
       "originalCaptureBytes": 899661,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/payment-request-page",
       "file": "pages/payment-request-page.html",
       "ok": true,
-      "bytes": 2112,
+      "bytes": 1126489,
       "originalCaptureBytes": 1126635,
       "modifications": [
-        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
+        "LegalZoom banner removed; navigation-only interaction patch; original layout preserved"
       ]
     }
   ],
@@ -33403,10 +33403,10 @@
     "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/zalandosanssemiexpanded/v3/6qLUKYcHuh3msE9OaXROVVclRRa-ClZSEipa2hrE5xS7db9_TDudCg.woff2"
   ],
   "verification": {
-    "date": "2026-10-02T17:46:01.494Z",
+    "date": "2026-10-02T17:52:38.091Z",
     "sitemapPages": 10,
     "allSitemapPagesSaved": true,
-    "standaloneRoutes": 30,
-    "localReferencesChecked": 654
+    "originalLayoutComparedTo": "9f6c9ec",
+    "navigationPatchedPages": 22
   }
 }

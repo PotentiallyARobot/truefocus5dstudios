@@ -1,31 +1,29 @@
-# TrueFocus 5D Studios
+# TrueFocus5DStudios website recovery archive
 
-Standalone static website. The root index.html is the homepage. Publish the repository root with GitHub Pages; relative links work under a repository subpath or a custom domain.
+Backup of the public Wix website, captured October 2, 2026, for rebuilding and migration.
 
-## Website
+Source: https://ace02789.wixsite.com/truefocus5dstudios
 
-- Ten responsive pages, with compatible routes in pages/ and local-pages/.
-- Shared site.css and site.js: responsive grids, a mobile menu, click-to-open conversion dropdown, keyboard focus, Escape dismissal, and current-page indicators.
-- TrueFocus branding only. No Wix or LegalZoom banners or runtime dependencies.
-- Downloaded posters and demonstration video, plus responsive YouTube embeds with external watch links.
-- Contact links open the user's email application. Newsletter, checkout and other Wix backend features are not active. The payment page directs enquiries to the studio.
+The root `index.html` displays the TrueFocus homepage. Open `backup-index.html` to browse the recovery archive. This is a recovery archive, not a standalone working Wix application.
 
-## Development
+## Contents
 
-Requires Node.js. No package installation or framework build is needed to serve the committed site.
+- `pages/`: captured HTML, with the LegalZoom banner removed, for all 10 pages listed in the Wix sitemap.
+- `local-pages/`: convenience copies with downloaded asset references rewritten where available. Wix runtime services may still require network access.
+- `text/`: extracted page text.
+- `assets/`: 4,016 downloaded assets, including images, styles, scripts, fonts, and two background videos in four resolutions each, through 1080p.
+- `manifest.json`: original URLs, local paths, download outcomes, sizes, and verification results.
+- `sitemap.xml`, `pages-sitemap.xml`: captured public sitemaps.
+- `dns-backup.zone`: existing Wix DNS configuration, including Google Workspace mail records; no DNS changes have been made.
+- `BACKUP-NOTES.txt`: coverage and limitations.
+- `*.cjs`: Windows/Node.js download and verification utilities using curl.exe. These are capture utilities, not a website build system.
 
-    node build-site.cjs
-    node check-site.cjs
-    node preview.cjs
+## Remaining migration work
 
-Preview: http://127.0.0.1:4174
+Embedded YouTube videos are represented by their URLs; their video files are not included. Wix forms, newsletter, login, chat, payments, and dynamic library/backend data require separate export or rebuilding. Four Wix payment scripts returned HTTP 403. Additional dependencies from Wix's global font catalog are listed but were not downloaded.
 
-Edit build-site.cjs for shared templates, site-content.json for preserved page copy, and site.css / site.js for presentation and navigation. The builder regenerates all published HTML routes.
+The downloadable ZIP is not duplicated in this repository; the extracted backup is committed directly.
 
-## Recovery materials
+LegalZoom branding was removed from all saved page variants. The earlier ZIP remains the original capture. This change does not complete the standalone GitHub Pages rebuild.
 
-The assets, extracted text, manifest, captured sitemaps, and DNS backup retain the recovery materials from October 2, 2026. The manifest describes the original download and records subsequent page changes. The earlier ZIP is the original capture. Historical download/finalization/banner-removal/verification utilities are capture tools and should not be run over the rebuilt site.
-
-## Validation
-
-check-site.cjs checks all 30 public/compatibility routes, local asset/link targets, viewport metadata, navigation and absence of Wix runtime/branding. Mobile menu expansion, conversion submenu navigation, and contact navigation were checked in Chrome at 390px and 320px without horizontal overflow.
+Navigation-only fix: navigation.js and navigation.css retain the original saved design while enabling local menu links, click/keyboard conversion dropdowns, and Escape/outside-click dismissal. The full redesign was reverted.

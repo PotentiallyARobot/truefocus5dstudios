@@ -1,0 +1,9 @@
+/* Navigation-only overrides. Preserve the original page layout and styling. */
+#SITE_HEADER nav.tf-navigation [data-tf-open="false"]>[data-testid="positionBox"]{display:none!important}
+#SITE_HEADER nav.tf-navigation [data-tf-open="true"]>[data-testid="positionBox"]{display:block!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;z-index:9999}
+#SITE_HEADER nav.tf-navigation [data-tf-open="true"]>[data-testid="positionBox"]>div{display:block!important;visibility:visible!important;opacity:1!important;transform:none!important;pointer-events:auto!important}
+#SITE_HEADER nav.tf-navigation a,#SITE_HEADER nav.tf-navigation [role="button"],#SITE_HEADER nav.tf-navigation button{cursor:pointer;touch-action:manipulation}
+#SITE_HEADER nav.tf-navigation a:focus-visible,#SITE_HEADER nav.tf-navigation [role="button"]:focus-visible,#SITE_HEADER nav.tf-navigation button:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+#SITE_HEADER nav.tf-navigation [data-testid="positionBox"] a{min-height:40px}
+#WIX_ADS,.WIX_ADS{display:none!important;height:0!important;min-height:0!important}
+:root,body{--wix-ads-height:0px!important;--wix-ads-top-height:0px!important}
