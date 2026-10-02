@@ -1,0 +1,7 @@
+* -text
+*.md text eol=lf
+*.cjs text eol=lf
+*.mp4 binary
+*.woff binary
+*.woff2 binary
+*.ttf binary

@@ -1,0 +1,12 @@
+const fs=require('fs'),path=require('path');const root=__dirname;const m=JSON.parse(fs.readFileSync(path.join(root,'manifest.json')));
+const file='pages/payment-request-page.html',url=m.source+'/payment-request-page';
+if(!m.pages.some(p=>p.url===url))m.pages.push({url,file,ok:true,bytes:fs.statSync(path.join(root,file)).size});
+const html=fs.readFileSync(path.join(root,file),'utf8');fs.writeFileSync(path.join(root,'text/payment-request-page.txt'),html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,'\n').replace(/\n\s*\n/g,'\n'));
+fs.copyFileSync(path.join(root,file),path.join(root,'local-pages/payment-request-page.html'));
+const missing=[...m.pages,...m.assets].filter(a=>a.ok&&(!fs.existsSync(path.join(root,a.file))||fs.statSync(path.join(root,a.file)).size!==a.bytes));
+if(missing.length)throw new Error('Verification failed: '+JSON.stringify(missing));
+const xml=fs.readFileSync(path.join(root,'pages-sitemap.xml'),'utf8');const sitemap=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);const absent=sitemap.filter(u=>!m.pages.some(p=>p.url===u&&p.ok));if(absent.length)throw new Error('Missing sitemap pages: '+absent);
+m.verification={date:new Date().toISOString(),sitemapPages:sitemap.length,allSitemapPagesSaved:true,downloadedFileSizesVerified:true};fs.writeFileSync(path.join(root,'manifest.json'),JSON.stringify(m,null,2));
+let index=fs.readFileSync(path.join(root,'index.html'),'utf8').replace('9 pages;','10 pages;').replace('</ul>','<li>Payment request page — <a href="pages/payment-request-page.html">Original HTML</a></li></ul>');fs.writeFileSync(path.join(root,'index.html'),index);
+let notes=fs.readFileSync(path.join(root,'BACKUP-NOTES.txt'),'utf8').replace('"pages": 9','"pages": 10').replace('all 9 linked public pages','all 10 sitemap-listed public pages');notes+='\nVERIFIED: All 10 sitemap pages are saved. File presence and byte counts verified for every successful manifest entry.\n';fs.writeFileSync(path.join(root,'BACKUP-NOTES.txt'),notes);
+console.log(JSON.stringify({pages:m.pages.length,assets:m.assets.filter(a=>a.ok).length,failed:m.assets.filter(a=>!a.ok).length,verification:m.verification}));

@@ -1,0 +1,24 @@
+TRUEFOCUS WEBSITE RECOVERY BACKUP
+Source: https://ace02789.wixsite.com/truefocus5dstudios
+Saved: 2026-10-02T15:41:47.533Z
+{
+  "pages": 10,
+  "assets": 4016,
+  "videoFiles": 8,
+  "failed": 4,
+  "assetBytes": 416197844
+}
+
+pages/: unmodified HTML snapshots of all 10 sitemap-listed public pages.
+local-pages/: copies with directly referenced saved URLs rewritten locally; Wix dynamic scripts can still require online services.
+assets/: images, original-resolution images, 2 background videos in 4 resolutions each, styles, scripts, fonts and CSS dependencies.
+text/: readable text extracted from each page.
+manifest.json: exact source URLs, local paths, byte counts and failures.
+dns-backup.zone: previously saved DNS records.
+
+LIMITATIONS
+This is a recovery archive, not a standalone operational Wix site. Wix forms, newsletter, login, chat and dynamic video library/backend data must be recreated or exported separately. Embedded YouTube videos are preserved as URLs, not downloaded video files. No authentication or paywall was bypassed. Failed assets are listed in manifest.json.
+
+VERIFIED: All 10 sitemap pages are saved. File presence and byte counts verified for every successful manifest entry.
+
+Wix global stylesheet font catalog: 9137 additional dependency URLs are inventoried but not downloaded. Four Wix checkout/pay-button scripts returned HTTP 403.

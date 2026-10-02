@@ -1,0 +1,17 @@
+; TrueFocus Wix DNS records observed 2026-10-02. No DNS changes made.
+$ORIGIN truefocus5dstudios.com.
+$TTL 3600
+@ IN A 185.230.63.107
+@ IN A 185.230.63.186
+@ IN A 185.230.63.171
+www IN CNAME cdn3.wixdns.net.
+@ IN TXT "google-site-verification=O6jl4difrYguy6yAo-NuPePsxd7hTnQS-hbeCTEJgFg"
+@ IN TXT "v=spf1 include:_spf.google.com ~all"
+@ IN MX 10 aspmx.l.google.com.
+@ IN MX 20 alt1.aspmx.l.google.com.
+@ IN MX 30 alt2.aspmx.l.google.com.
+@ IN MX 40 alt3.aspmx.l.google.com.
+@ IN MX 50 alt4.aspmx.l.google.com.
+; Current authoritative nameservers (not for importing into a new provider):
+; ns5.wixdns.net.
+; ns4.wixdns.net.
