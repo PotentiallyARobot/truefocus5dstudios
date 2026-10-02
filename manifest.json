@@ -6,100 +6,100 @@
       "url": "https://ace02789.wixsite.com/truefocus5dstudios",
       "file": "pages/home.html",
       "ok": true,
-      "bytes": 1313836,
+      "bytes": 4598,
       "originalCaptureBytes": 1314102,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/services-7",
       "file": "pages/services-7.html",
       "ok": true,
-      "bytes": 918095,
+      "bytes": 4228,
       "originalCaptureBytes": 918361,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/aliens",
       "file": "pages/aliens.html",
       "ok": true,
-      "bytes": 1101740,
+      "bytes": 4287,
       "originalCaptureBytes": 1102006,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/matrix",
       "file": "pages/matrix.html",
       "ok": true,
-      "bytes": 1100470,
+      "bytes": 4057,
       "originalCaptureBytes": 1100736,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/gladiator",
       "file": "pages/gladiator.html",
       "ok": true,
-      "bytes": 1096222,
+      "bytes": 4077,
       "originalCaptureBytes": 1096488,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/the-fifth-element",
       "file": "pages/the-fifth-element.html",
       "ok": true,
-      "bytes": 1096082,
+      "bytes": 4205,
       "originalCaptureBytes": 1096348,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/starship-troopers",
       "file": "pages/starship-troopers.html",
       "ok": true,
-      "bytes": 1097795,
+      "bytes": 3985,
       "originalCaptureBytes": 1098061,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/about-us",
       "file": "pages/about-us.html",
       "ok": true,
-      "bytes": 906925,
+      "bytes": 7669,
       "originalCaptureBytes": 907191,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/contact",
       "file": "pages/contact.html",
       "ok": true,
-      "bytes": 899395,
+      "bytes": 2314,
       "originalCaptureBytes": 899661,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/payment-request-page",
       "file": "pages/payment-request-page.html",
       "ok": true,
-      "bytes": 1126369,
+      "bytes": 2112,
       "originalCaptureBytes": 1126635,
       "modifications": [
-        "LegalZoom banner removed; branding display and reserved height suppressed"
+        "Rebuilt as standalone responsive HTML; Wix/LegalZoom branding and runtime removed"
       ]
     }
   ],
@@ -33403,9 +33403,10 @@
     "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/zalandosanssemiexpanded/v3/6qLUKYcHuh3msE9OaXROVVclRRa-ClZSEipa2hrE5xS7db9_TDudCg.woff2"
   ],
   "verification": {
-    "date": "2026-10-02T17:14:43.285Z",
+    "date": "2026-10-02T17:46:01.494Z",
     "sitemapPages": 10,
     "allSitemapPagesSaved": true,
-    "bannerMarkupRemoved": true
+    "standaloneRoutes": 30,
+    "localReferencesChecked": 654
   }
 }
