@@ -6,61 +6,101 @@
       "url": "https://ace02789.wixsite.com/truefocus5dstudios",
       "file": "pages/home.html",
       "ok": true,
-      "bytes": 1314102
+      "bytes": 1313836,
+      "originalCaptureBytes": 1314102,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/services-7",
       "file": "pages/services-7.html",
       "ok": true,
-      "bytes": 918361
+      "bytes": 918095,
+      "originalCaptureBytes": 918361,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/aliens",
       "file": "pages/aliens.html",
       "ok": true,
-      "bytes": 1102006
+      "bytes": 1101740,
+      "originalCaptureBytes": 1102006,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/matrix",
       "file": "pages/matrix.html",
       "ok": true,
-      "bytes": 1100736
+      "bytes": 1100470,
+      "originalCaptureBytes": 1100736,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/gladiator",
       "file": "pages/gladiator.html",
       "ok": true,
-      "bytes": 1096488
+      "bytes": 1096222,
+      "originalCaptureBytes": 1096488,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/the-fifth-element",
       "file": "pages/the-fifth-element.html",
       "ok": true,
-      "bytes": 1096348
+      "bytes": 1096082,
+      "originalCaptureBytes": 1096348,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/starship-troopers",
       "file": "pages/starship-troopers.html",
       "ok": true,
-      "bytes": 1098061
+      "bytes": 1097795,
+      "originalCaptureBytes": 1098061,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/about-us",
       "file": "pages/about-us.html",
       "ok": true,
-      "bytes": 907191
+      "bytes": 906925,
+      "originalCaptureBytes": 907191,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/contact",
       "file": "pages/contact.html",
       "ok": true,
-      "bytes": 899661
+      "bytes": 899395,
+      "originalCaptureBytes": 899661,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     },
     {
       "url": "https://ace02789.wixsite.com/truefocus5dstudios/payment-request-page",
       "file": "pages/payment-request-page.html",
       "ok": true,
-      "bytes": 1126635
+      "bytes": 1126369,
+      "originalCaptureBytes": 1126635,
+      "modifications": [
+        "LegalZoom banner removed; branding display and reserved height suppressed"
+      ]
     }
   ],
   "assets": [
@@ -33363,9 +33403,9 @@
     "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/zalandosanssemiexpanded/v3/6qLUKYcHuh3msE9OaXROVVclRRa-ClZSEipa2hrE5xS7db9_TDudCg.woff2"
   ],
   "verification": {
-    "date": "2026-10-02T15:48:37.829Z",
+    "date": "2026-10-02T17:14:43.285Z",
     "sitemapPages": 10,
     "allSitemapPagesSaved": true,
-    "downloadedFileSizesVerified": true
+    "bannerMarkupRemoved": true
   }
 }

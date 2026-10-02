@@ -9,7 +9,7 @@ Saved: 2026-10-02T15:41:47.533Z
   "assetBytes": 416197844
 }
 
-pages/: unmodified HTML snapshots of all 10 sitemap-listed public pages.
+pages/: HTML snapshots with the LegalZoom banner removed of all 10 sitemap-listed public pages.
 local-pages/: copies with directly referenced saved URLs rewritten locally; Wix dynamic scripts can still require online services.
 assets/: images, original-resolution images, 2 background videos in 4 resolutions each, styles, scripts, fonts and CSS dependencies.
 text/: readable text extracted from each page.
@@ -22,3 +22,5 @@ This is a recovery archive, not a standalone operational Wix site. Wix forms, ne
 VERIFIED: All 10 sitemap pages are saved. File presence and byte counts verified for every successful manifest entry.
 
 Wix global stylesheet font catalog: 9137 additional dependency URLs are inventoried but not downloaded. Four Wix checkout/pay-button scripts returned HTTP 403.
+
+LegalZoom branding was removed from all saved page variants. The earlier ZIP remains the original capture. This change does not complete the standalone GitHub Pages rebuild.
