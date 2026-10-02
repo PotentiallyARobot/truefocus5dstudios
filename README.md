@@ -4,7 +4,7 @@ Backup of the public Wix website, captured October 2, 2026, for rebuilding and m
 
 Source: https://ace02789.wixsite.com/truefocus5dstudios
 
-Open `index.html` to browse the backup. This is a recovery archive, not a standalone working Wix application.
+The root `index.html` displays the TrueFocus homepage. Open `backup-index.html` to browse the recovery archive. This is a recovery archive, not a standalone working Wix application.
 
 ## Contents
 
